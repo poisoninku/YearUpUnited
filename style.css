@@ -1,0 +1,30 @@
+h1 {
+    text-align:center;
+    font-weight: bold;
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+   }
+img{
+   width: 50em;
+   height: 25em;
+   margin-right: 20px;
+   padding: 15px;
+   border: 1px solid black;
+}
+  
+.text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    width: 15em;
+    margin-right: 20px;
+    text-align: justify;
+    word-spacing: 2px;   
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-left: 10px;
+}
